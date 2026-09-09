@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <h1>Quiz Maker</h1>
+            <p>Create your own quiz</p>
+        </div>
+
+        <div class="quiz-box">
+
+            <label for="quiz-title">Quiz Title</label>
+            <input type="text" id="quiz-title"
+                   placeholder="Enter quiz title">
+
+            <label for="question">Question</label>
+            <textarea id="question"
+                      placeholder="Enter your question"></textarea>
+
+            <h3>Answer Options</h3>
+
+            <div class="option">
+                <input type="text" placeholder="Option A">
+                <input type="radio" name="correct" value="A">
+                <span>Correct</span>
+            </div>
+
+            <div class="option">
+                <input type="text" placeholder="Option B">
+                <input type="radio" name="correct" value="B">
+                <span>Correct</span>
+            </div>
+
+            <div class="option">
+                <input type="text" placeholder="Option C">
+                <input type="radio" name="correct" value="C">
+                <span>Correct</span>
+            </div>
+
+            <div class="option">
+                <input type="text" placeholder="Option D">
+                <input type="radio" name="correct" value="D">
+                <span>Correct</span>
+            </div>
+
+            <button class="add-btn">+ Add Question</button>
+            <button class="save-btn">Save Quiz</button>
+
+        </div>
+
+        <div class="questions">
+            <h2>Questions Added</h2>
+
+            <div class="question-card">
+                <h3>1. What is HTML?</h3>
+                <p>A. Hyper Text Markup Language</p>
+                <p>B. High Text Machine Language</p>
+                <p>C. Hyper Tool Markup Language</p>
+                <p>D. Home Tool Markup Language</p>
+
+                <button class="edit-btn">Edit</button>
+                <button class="delete-btn">Delete</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
